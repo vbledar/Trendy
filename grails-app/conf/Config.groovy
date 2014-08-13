@@ -78,11 +78,13 @@ environments {
                 host = 'www.facebook.com'
                 path = 'dialog/oauth'
 
+                graph_api_version = "v2.1"
+
                 graph_host = 'graph.facebook.com'
                 access_token_path = 'oauth/access_token'
 
-                app_id = 325116950986098
-                app_secret = d6cbc089fb5806fc5713b680861e6d04
+                app_id = '325116950986098'
+                app_secret = 'd6cbc089fb5806fc5713b680861e6d04'
             }
         }
     }
