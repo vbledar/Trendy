@@ -8,18 +8,21 @@
 
             </div>
             <div class="col-sm-3">
-                <h2 style="color: darkorange;">
-                    Find us on ...
-                </h2>
+
+            </div>
+            <div class="col-sm-3">
+                <div class="page-header">
+                    <h3>Are You Social </br><small>Follow us below...!</small></h3>
+                </div>
                 <div class="row">
                     <div class="col-sm-4">
-                        <g:img dir="/images/social" file="facebook_dark.png"/>
+                        <div class="facebook-social-icon"></div>
                     </div>
                     <div class="col-sm-4">
-                        <g:img dir="/images/social" file="google_dark.png"/>
+                        <div class="google-plus-social-icon"></div>
                     </div>
                     <div class="col-sm-4">
-                        <g:img dir="/images/social" file="twitter02_dark.png"/>
+                        <div class="twitter-social-icon"></div>
                     </div>
                 </div>
             </div>

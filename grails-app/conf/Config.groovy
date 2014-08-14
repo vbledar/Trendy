@@ -143,6 +143,8 @@ log4j = {
             debug 'grails.app.controllers.com.trendy.LandingController'
             debug 'grails.app.controllers.com.trendy.social.RedirectController'
 
+            debug 'grails.app.controllers.com.trendy.user.RegistrationController'
+
             debug 'grails.app.services.com.trendy.social.SocialService'
             debug 'grails.app.services.com.trendy.social.FacebookService'
         }

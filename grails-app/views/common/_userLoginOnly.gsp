@@ -1,6 +1,6 @@
 <div class="form-container">
     <div class="page-header">
-        <h3>Sign In <small>or sign up if you haven't done already...</small></h3>
+        <h3>Sign In <small>using a username and a password...</small></h3>
     </div>
     <div class="row">
         <div class="col-sm-12">
@@ -25,10 +25,7 @@
 
                 <div class="btn-group pull-right">
                     <g:link controller="landing" action="authenticateUser" class="btn btn-default">
-                        <img src="images/glyphicons/png/glyphicons_203_lock.png" style="max-height: 13px; max-width: 13px;"/> <g:message code="button.label.login.with.application"/>
-                    </g:link>
-                    <g:link controller="registration" action="userRegistration" class="btn btn-default">
-                        <img src="images/glyphicons/png/glyphicons_006_user_add.png" style="max-height: 15px; max-width: 15px;"/> <g:message code="button.label.register.with.application"/>
+                        <g:img dir="images/glyphicons/png" file="glyphicons_203_lock.png" style="max-width: 13px; max-height: 13px;"/> <g:message code="button.label.login.with.application"/>
                     </g:link>
                 </div>
             </g:form>

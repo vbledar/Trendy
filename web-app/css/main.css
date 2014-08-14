@@ -1,7 +1,5 @@
 body {
     margin-top: 10px;
-    /*margin-left: 5px;*/
-    /*margin-right: 5px;*/
 }
 
 .container-fluid {
@@ -9,7 +7,6 @@ body {
 }
 
 .header-container {
-
     border-top: 2px solid #E74C3C;
     border-bottom: 2px solid #E74C3C;
 
@@ -21,9 +18,15 @@ body {
 div.navbar.header-main-menu {
     border-radius: 0px !important;
 }
+
 .header-main-menu {
     border-top: 2px solid darkorange;
     border-bottom: 2px solid darkorange;
+}
+
+.navbar {
+    background: url("/trendy/images/img-noise-100x100.png") repeat !important;
+    border-radius: 0 !important;
 }
 
 .footer-container {
@@ -41,13 +44,18 @@ div.navbar.header-main-menu {
     border-top: 2px solid darkorange;
     border-bottom: 2px solid darkorange;
 
-    background-color: #020500;
+    /*background-color: #020500;*/
 
     margin-bottom: 15px;
+
+    /*background-image: url('/trendy/images/img-noise-50x50.png');*/
+    background: url("/trendy/images/img-noise-100x100.png") repeat;
 }
 
 .form-container {
-    background-color: #020500;
+    /*background-color: #020500;*/
+
+    background: url("/trendy/images/img-noise-100x100.png") repeat !important;
 
     padding-left: 25px;
     padding-right: 25px;
@@ -114,4 +122,41 @@ div.form-group.errors > div.input-group > input {
 /* Font management */
 .bold-font-title {
     font-weight: bolder;
+}
+
+/* Form fields */
+div.form-group label {
+    /*color: darkorange;*/
+}
+
+/* Social networks icon management */
+
+div.facebook-social-icon {
+    background-image: url("/trendy/images/social/facebook_dark.png");
+    min-height: 32px;
+    max-width: 32px;
+}
+
+div.facebook-social-icon:hover {
+    background-image: url('/trendy/images/social/facebook_active.png');
+}
+
+div.google-plus-social-icon {
+    background-image: url("/trendy/images/social/google_dark.png");
+    min-height: 32px;
+    max-width: 32px;
+}
+
+div.google-plus-social-icon:hover {
+    background-image: url('/trendy/images/social/google_active.png');
+}
+
+div.twitter-social-icon {
+    background-image: url("/trendy/images/social/twitter02_dark.png");
+    min-height: 32px;
+    max-width: 32px;
+}
+
+div.twitter-social-icon:hover {
+    background-image: url('/trendy/images/social/twitter02_active.png');
 }
